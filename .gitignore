@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+matplotlibrc.txt
 
 # Virtual environments
 .venv
