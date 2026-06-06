@@ -19,7 +19,6 @@ def _auto_discover_styles():
 
 # 样式文件路径，自动发现
 STYLES = _auto_discover_styles()
-print(f"Discovered styles: {list(STYLES.keys())}")
 
 # 将所有样式注册到 matplotlib 的样式库中
 for style_name, style_path in STYLES.items():
